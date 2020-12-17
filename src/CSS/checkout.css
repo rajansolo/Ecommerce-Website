@@ -1,0 +1,16 @@
+.checkout {
+    display: flex;
+    background: white;
+}
+
+.checkout__left{
+    
+    width: 100%;
+}
+
+.checkout__header{
+    margin-left: 10px;
+    padding-bottom: 10px;
+    width: 90%; 
+    border-bottom: 1px solid rgba(160, 144, 144, 0.863);
+}

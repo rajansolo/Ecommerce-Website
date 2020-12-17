@@ -1,0 +1,34 @@
+.container{
+    width: 90%;
+    margin: 0px auto;
+    display: flex;
+    align-items: stretch;
+    margin-top: 10px
+}
+
+.image{
+    text-align: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.image > img{
+    object-fit: contain;
+    width: 100%;    
+}
+
+.owner-details{
+    background: white;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.owner-details > p{
+    padding: 50px;
+    text-align: center;
+}

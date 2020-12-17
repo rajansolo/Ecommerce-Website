@@ -1,0 +1,33 @@
+.productdetails{
+    display: flex;
+    width: 700px;
+    flex-direction: row;
+    margin-top: 10px;
+}
+
+.productDetails__image{
+    height: 250px;
+    width: 250px;
+    object-fit: contain;
+    justify-content: flex-end;
+    flex: 1
+}
+
+.productdetails .productdetails__info{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.productdetails__rating{
+    display: flex;
+}
+
+.productDetails__addTobasket{
+    background: rgb(243,206,114);
+    border: 1px solid rgb(100, 91, 36);
+    padding: 2px;
+    border-radius: 2px;
+    padding: 2;
+    
+}
